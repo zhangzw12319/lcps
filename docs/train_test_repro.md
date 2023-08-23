@@ -2,9 +2,19 @@
 
 ## Quick Start
 
- 
-
 Use NuScenes for example.
+
+### Download Checkpoints for Image Branch
+
+|           Name           |                            Link                            |
+| :----------------------: | :--------------------------------------------------------: |
+| `resnet18-5c106cde.pth`  | https://download.pytorch.org/models/resnet18-5c106cde.pth  |
+| `resnet34-333f7ec4.pth`  | https://download.pytorch.org/models/resnet34-333f7ec4.pth  |
+| `resnet50-19c8e357.pth`  | https://download.pytorch.org/models/resnet50-19c8e357.pth  |
+| `resnet101-5d3b4d8f.pth` | https://download.pytorch.org/models/resnet101-5d3b4d8f.pth |
+| `resnet152-b121ed2d`.pth | https://download.pytorch.org/models/resnet152-b121ed2d.pth |
+
+Download these weights and link their direct parent folder to `../checkpoints`.
 
 ### Train+Val
 
