@@ -10,7 +10,7 @@
 >
 > Download: Arxiv preprint paper is  [here](https://arxiv.org/abs/2308.01686) .
 >
-> Authors: [Zhiwei Zhang$\dagger$](https://scholar.google.com/citations?hl=en&user=GjkRn78AAAAJ), [Zhizhong Zhang$\dagger$](https://scholar.google.com/citations?user=CXZciFAAAAAJ&hl=en), Qian Yu, [Ran Yi](https://scholar.google.com/citations?user=y68DLo4AAAAJ&hl=en), [Yuan Xie\*](https://scholar.google.com/citations?user=RN1QMPgAAAAJ&hl=en), [Lizhuang Ma\*](https://scholar.google.com/citations?user=yd58y_0AAAAJ&hl=en)
+> Authors: [Zhiwei Zhang $\dagger$ ](https://scholar.google.com/citations?hl=en&user=GjkRn78AAAAJ), [Zhizhong Zhang $\dagger$ ](https://scholar.google.com/citations?user=CXZciFAAAAAJ&hl=en), Qian Yu, [Ran Yi](https://scholar.google.com/citations?user=y68DLo4AAAAJ&hl=en), [Yuan Xie\*](https://scholar.google.com/citations?user=RN1QMPgAAAAJ&hl=en), [Lizhuang Ma\*](https://scholar.google.com/citations?user=yd58y_0AAAAJ&hl=en)
 >
 > $\dagger$ Equal Contribution   *Corresponding author
 
