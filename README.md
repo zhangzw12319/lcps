@@ -5,6 +5,7 @@
 <div align="center">
    <img src="https://s2.loli.net/2023/08/24/1bZL8DSlWctEFNG.png"  height=160>          <img src="https://s2.loli.net/2023/08/24/yRazBCwPvVZqKO9.png" height=160>          <img src="https://s2.loli.net/2023/08/24/GJUPziVsu9SIj2X.png" height=160>
 </div>
+
 > Title: LiDAR-Camera Panoptic Segmentation via Geometry-Consistent and Semantic-Aware Alignment (ICCV 2023) 
 >
 > Download: Arxiv preprint paper is  [here](https://arxiv.org/abs/2308.01686) .
@@ -19,6 +20,7 @@
 <div align="center">
     The Visualization video is Captured on NuScenes Dataset, compressed and converted to gif for efficient playting. Left: Semantic Segmentation,  Right: Instance Segmentation. Original MP4 video can be downloaded at <a href="https://www.dropbox.com/scl/fi/lujxp6ejliny9sceg64ao/video_view.mp4?rlkey=t9fypl4uptuyzmhgroni9f3re&dl=0">Dropbox</a> or <a href="https://www.aliyundrive.com/s/JGx2X4hpmEt">Aliyun</a> (Code: q5h7).
 </div>
+
 ## News
 
 - **[2023/08/24]** Demo release.
