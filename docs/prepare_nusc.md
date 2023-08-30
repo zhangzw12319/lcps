@@ -32,7 +32,7 @@ nuscenes/
 │   ├── RADAR_FRONT_LEFT
 │   └── RADAR_FRONT_RIGHT
 ├── sweeps						# Non key frames, structure similar as samples folder
-├── v1.0-mini
+├── v1.0-mini`					# Metadata folder with `json` files
 │   ├── attribute.json
 │   ├── ego_pose.json
 │   ├── map.json
@@ -52,13 +52,13 @@ nuscenes/
 └── v1.0-test					# Similar as v1.0-mini
 ```
 
-
-
 ## Access
 
 ### Download 
 
-You can download either from NuScenes website or [OpenDatalab](https://opendatalab.com/nuScenes).
+You can download either from NuScenes [website](https://www.nuscenes.org/nuscenes) or [OpenDataLab](https://opendatalab.com/nuScenes).
+
+For NuScenes website, you need to download `Full dataset (v1.0)`(including mini, trainval and test splits), `NuScenes-lidareseg` ，and`NuScenes-panoptic`. For OpenDataLab, it seems that only `Full dataset (v1.0)`is provided and you need to download the other two from NuScenes website.
 
 PKL files for NuScenes for our project can be downloaded [here](https://pan.baidu.com/s/1a94BcZAYb0rWMJZL_uZayw?pwd=posk).
 
@@ -66,4 +66,4 @@ PKL files for NuScenes for our project can be downloaded [here](https://pan.baid
 
 ### Extraction
 
-Please note that first extract `lidarseg` GT compressed files, move such as `attribute.json` to `v1.0-mini`, `v1.0-trainval` and `v1.0-test`, and **confirm overwrite original files if conflict**; then extract `panoptic` GT compressed files, and do the same things. The meta file overwrite priority order: `panoptic` > `lidarseg` > `V1.0 Original Meta Files`.
+Please note that first extract `lidarseg` GT compressed files, move` json` files such as `attribute.json` to `v1.0-mini`, `v1.0-trainval` and `v1.0-test`, and **confirm overwrite original files from `v1.0-Fulll metadata`if conflict**; then extract `panoptic` GT compressed files, and do the same things. The meta file overwrite priority order: `panoptic` > `lidarseg` > `V1.0 Original Meta Files`.
