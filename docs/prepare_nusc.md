@@ -49,7 +49,7 @@ nuscenes/
 │   ├── sample_annotation.json
 │   └── scene.json
 ├── v1.0-trainval				# Similar as v1.0-mini
-└── v1.0-test					# Similar as v1.0-mini, excluding lidarseg.json and panoptic.json
+└── v1.0-test					# Similar as v1.0-mini
 ```
 
 

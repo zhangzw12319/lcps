@@ -107,7 +107,7 @@ Will be released with code soon.
 
 ### Check Config Files
 
-:white_check_mark: Check whether `path` and `instance_path` variables are correctly set in `configs/XXXXX.yaml`, where `path` is set to `../data/nuscenes` or `../data/SemanticKitti` as default (via soft link) and instance_path is set to the location of `pkl` files. If NuScenes, check whether `version` is correct as shown in the following table.
+:white_check_mark: Check whether `path` and `instance_path)` (See [here](https://github.com/zhangzw12319/lcps/blob/main/docs/prepare_nusc.md)) variables are correctly set in `configs/XXXXX.yaml`, where `path` is set to `../data/nuscenes` or `../data/SemanticKitti` as default (via soft link) and instance_path is set to the location of `pkl` files. If NuScenes, check whether `version` is correct as shown in the following table.
 
 |     Config Names      |  Correct Split  |
 | :-------------------: | :-------------: |
