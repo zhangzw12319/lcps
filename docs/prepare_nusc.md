@@ -18,6 +18,13 @@ nuscenes/
 │   ├── v1.0-trainval
 │   └── v1.0-test
 ├── pkl_files					# Generated index files, can be downloaded (see the following)
+├── inst_database_train			# Filtered Foreground objects for instance augmentation (e.g. Copy Paste)
+│   ├── inst_database_train_info.pkl
+│   ├── barrier
+│   	├── XXX.bin
+│   	└── ...
+│   ├── barrier
+│   └── ...
 ├── samples						# Key Frames
 │   ├── CAM_BACK
 │   ├── CAM_BACK_LEFT
@@ -56,13 +63,13 @@ nuscenes/
 
 ### Download 
 
-You can download either from NuScenes [website](https://www.nuscenes.org/nuscenes) or [OpenDataLab](https://opendatalab.com/nuScenes).
+You can download the original dataset either from NuScenes [website](https://www.nuscenes.org/nuscenes) or [OpenDataLab](https://opendatalab.com/nuScenes).
 
 For NuScenes website, you need to download `Full dataset (v1.0)`(including mini, trainval and test splits), `NuScenes-lidareseg` ，and`NuScenes-panoptic`. For OpenDataLab, it seems that only `Full dataset (v1.0)`is provided and you need to download the other two from NuScenes website.
 
 PKL files for NuScenes for our project can be downloaded [here](https://pan.baidu.com/s/1a94BcZAYb0rWMJZL_uZayw?pwd=posk).
 
-(Optional) Support for CopyPaste (or CutMix) Augmentation. (Will be Updated.)
+(Optional) Support for Instance Augmentation. The compressed files for `inst_database_train` can be downloaded [here](https://pan.baidu.com/s/1h-IyvHWz3oD1P6KACBq9cg?pwd=ccm2).
 
 ### Extraction
 
