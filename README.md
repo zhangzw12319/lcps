@@ -75,13 +75,13 @@ If you find this project helpful, please consider **citing** the following paper
 Currently in Arxiv:
 
 ```bitex
-@misc{zhang2023lidarcamera,
-      title={LiDAR-Camera Panoptic Segmentation via Geometry-Consistent and Semantic-Aware Alignment}, 
-      author={Zhiwei Zhang and Zhizhong Zhang and Qian Yu and Ran Yi and Yuan Xie and Lizhuang Ma},
-      year={2023},
-      eprint={2308.01686},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{Zhang_2023_ICCV,
+    author    = {Zhang, Zhiwei and Zhang, Zhizhong and Yu, Qian and Yi, Ran and Xie, Yuan and Ma, Lizhuang},
+    title     = {LiDAR-Camera Panoptic Segmentation via Geometry-Consistent and Semantic-Aware Alignment},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {3662-3671}
 }
 ```
 
