@@ -55,6 +55,7 @@ LCPS/
 - [Step-3 Environment Installation](docs/env_install.md)
 - [Step-4 Training, Testing and Reproducing](docs/train_test_repro.md)
 - [Step-5 Other Toolkits (Will be Updated Soon)](docs/other_toolkits.md)
+- [Step-6 (Optional) Further Issues? Find QA](docs/QA.md)
 
 ## More Visualizations
 
@@ -72,8 +73,6 @@ All assets and code are under the [Apache 2.0 license](./LICENSE) unless specifi
 
 If you find this project helpful, please consider **citing** the following paper:
 
-Currently in Arxiv:
-
 ```bitex
 @InProceedings{Zhang_2023_ICCV,
     author    = {Zhang, Zhiwei and Zhang, Zhizhong and Yu, Qian and Yi, Ran and Xie, Yuan and Ma, Lizhuang},
@@ -84,8 +83,6 @@ Currently in Arxiv:
     pages     = {3662-3671}
 }
 ```
-
-IEEE/CVF citation will be updated later after Oct.2023.
 
 ## Acknowledgement [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 

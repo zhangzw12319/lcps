@@ -6,13 +6,13 @@ Use NuScenes for example.
 
 ### Download Checkpoints for Image Branch
 
-|           Name           |                            Link                            |
-| :----------------------: | :--------------------------------------------------------: |
-| `resnet18-5c106cde.pth`  | https://download.pytorch.org/models/resnet18-5c106cde.pth  |
-| `resnet34-333f7ec4.pth`  | https://download.pytorch.org/models/resnet34-333f7ec4.pth  |
-| `resnet50-19c8e357.pth`  | https://download.pytorch.org/models/resnet50-19c8e357.pth  |
-| `resnet101-5d3b4d8f.pth` | https://download.pytorch.org/models/resnet101-5d3b4d8f.pth |
-| `resnet152-b121ed2d`.pth | https://download.pytorch.org/models/resnet152-b121ed2d.pth |
+|            Name             |                            Link                            |
+| :-------------------------: | :--------------------------------------------------------: |
+| `resnet18-5c106cde.pth` (√) | https://download.pytorch.org/models/resnet18-5c106cde.pth  |
+|   `resnet34-333f7ec4.pth`   | https://download.pytorch.org/models/resnet34-333f7ec4.pth  |
+|   `resnet50-19c8e357.pth`   | https://download.pytorch.org/models/resnet50-19c8e357.pth  |
+|  `resnet101-5d3b4d8f.pth`   | https://download.pytorch.org/models/resnet101-5d3b4d8f.pth |
+|  `resnet152-b121ed2d`.pth   | https://download.pytorch.org/models/resnet152-b121ed2d.pth |
 
 Download these weights and link their direct parent folder to `../checkpoints`.
 
@@ -22,7 +22,7 @@ Download these weights and link their direct parent folder to `../checkpoints`.
 # Single GPU
 python train.py \
 -c configs/nusc_train.yaml \
--l test_nusc_20230101_pix_4k2bs_nusc_val_a6000.log
+-l test_nusc_20230101_pix_4k2bs_val_a6000.log
 
 ## DDP
 export CUDA_VISIBLE_DEVICES=4,5,6,7
@@ -30,8 +30,8 @@ export CUDA_VISIBLE_DEVICES=4,5,6,7
 nohup \
 python -m torch.distributed.launch --nproc_per_node=4 train.py \
 -c configs/nusc_train.yaml \
--l test_nusc_20230101_pix_4k2bs_nusc_a6000.log \
-> nohup_nusc_20230101_pix_4k2bs_nusc_a6000.log 2>&1 &
+-l nusc_20230101_pix_4k2bs_a6000.log \
+> nohup_nusc_20230101_pix_4k2bs_a6000.log 2>&1 &
 ```
 
 
@@ -42,7 +42,7 @@ python -m torch.distributed.launch --nproc_per_node=4 train.py \
 # Single GPU
 python val.py \
 -c configs/nusc_val.yaml \
--l test_nusc_20230101_pix_4k2bs_nusc_val_a6000.log
+-l test_nusc_20230101_pix_4k2bs_val_a6000.log
 
 ## DDP
 export CUDA_VISIBLE_DEVICES=4,5,6,7
@@ -50,8 +50,8 @@ export CUDA_VISIBLE_DEVICES=4,5,6,7
 nohup \
 python -m torch.distributed.launch --nproc_per_node=4 val.py \
 -c configs/nusc_val.yaml \
--l test_nusc_20230101_pix_4k2bs_nusc_val_a6000.log \
-> nohup_nusc_20230101_pix_4k2bs_nusc_val_a6000.log 2>&1 &
+-l nusc_20230101_pix_4k2bs_val_a6000.log \
+> nohup_nusc_20230101_pix_4k2bs_val_a6000.log 2>&1 &
 ```
 
 
@@ -62,7 +62,7 @@ python -m torch.distributed.launch --nproc_per_node=4 val.py \
 # Single GPU
 python test.py \
 -c configs/nusc_test.yaml \
--l test_nusc_20230101_pix_4k2bs_nusc_test_a6000.log \
+-l test_nusc_20230101_pix_4k2bs_test_a6000.log \
 --resume
 
 ## DDP
@@ -71,15 +71,17 @@ export CUDA_VISIBLE_DEVICES=4,5,6,7
 nohup \
 python -m torch.distributed.launch --nproc_per_node=4 test.py \
 -c configs/nusc_test.yaml \
--l test_nusc_20230101_pix_4k2bs_nusc_test_a6000.log \
-> nohup_nusc_20230101_pix_4k2bs_nusc_test_a6000.log 2>&1 &
+-l test_nusc_20230101_pix_4k2bs_test_a6000.log \
+> nohup_nusc_20230101_pix_4k2bs_test_a6000.log 2>&1 &
 ```
 
 
 
-Create Submission File (Will be Updated.)
+Create Submission File 
 
+- Step-1 Run `test.py`
 
+- Step-2 Use `utils/nusc_validate_submission.py`or `kitti_validate_submission.py` to check submission format.
 
 ### Reproducing
 
@@ -87,10 +89,10 @@ Create Submission File (Will be Updated.)
 
 Will be released with code soon.
 
-|    Dataset    | Checkpoint Link |
-| :-----------: | :-------------: |
-|   NuScenes    |                 |
-| SemanticKITTI |                 |
+|    Dataset    |                       Checkpoint Link                        | YAML Settings for Validation |               Logs                |
+| :-----------: | :----------------------------------------------------------: | :--------------------------: | :-------------------------------: |
+|   NuScenes    | [Link](https://github.com/zhangzw12319/lcps_weights/NuScenes/nusc_79.8.pt) |   pa_po_nuscenes_val.yaml    |  [nusc](logs/nohup_nusc_val.log)  |
+| SemanticKITTI | [Link](https://github.com/zhangzw12319/lcps_weights/SemanticKITTI/kitti_61.6.pt) |     pa_po_kitti_val.yaml     | [kitti](logs/nohup_kitti_val.log) |
 
 
 

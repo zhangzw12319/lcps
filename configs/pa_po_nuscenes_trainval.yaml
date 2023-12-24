@@ -1,0 +1,44 @@
+dataset:
+    name: nuscenes
+    version: v1.0-trainval
+    path: ../data/nuscenes
+    sample_pkl_path: ../data/nuscenes/pkl_files
+    rotate_aug: True
+    flip_aug: True
+    max_volume_space: [ 100, 3.1415926, 3 ]
+    min_volume_space: [ 0, -3.1415926, -5 ]
+    gt_generator:
+        sigma: 5
+    grid_size: [480,360,32]
+    inst_aug:
+        if_use: False
+        aug_type: contmix
+        inst_pkl_path: ../data/nuscenes/inst_database_train_info.pkl
+        inst_trans: True # random translation for contmix
+        inst_rotate: True
+        inst_flip: True
+        inst_add: True
+    num_worker: 4
+    min_points: 15
+model:
+    pix_fusion: True
+    pix_fusion_path: ../checkpoints/resnet18-5c106cde.pth
+    use_sara: True
+    use_att: True
+    model_load_path: null
+    model_save_path: ./nu_8k2b4l.pt
+    train_batch_size: 2
+    val_batch_size: 2
+    learning_rate: 0.004
+    LR_MILESTONES: [100, 150,200]
+    LR_GAMMA: 0.5
+    check_iter: 4000
+    max_epoch: 300
+    post_proc:
+        threshold: 0.1
+        nms_kernel: 5
+        top_k: 100
+    center_loss: MSE
+    offset_loss: L1
+    center_loss_weight: 100
+    offset_loss_weight: 10
