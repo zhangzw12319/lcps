@@ -10,7 +10,7 @@
 >
 > Download: ICCV Formal Version is [here](https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_LiDAR-Camera_Panoptic_Segmentation_via_Geometry-Consistent_and_Semantic-Aware_Alignment_ICCV_2023_paper.html)
 > 
-> Download: Arxiv preprint paper is [here](https://arxiv.org/abs/2308.01686) .
+> Download: Arxiv preprint paper is [here](https://arxiv.org/abs/2308.01686)
 >
 > Authors: [Zhiwei Zhang](https://scholar.google.com/citations?hl=en&user=GjkRn78AAAAJ), [Zhizhong Zhang](https://scholar.google.com/citations?user=CXZciFAAAAAJ&hl=en), Qian Yu, [Ran Yi](https://scholar.google.com/citations?user=y68DLo4AAAAJ&hl=en), [Yuan Xie\*](https://scholar.google.com/citations?user=RN1QMPgAAAAJ&hl=en), [Lizhuang Ma\*](https://scholar.google.com/citations?user=yd58y_0AAAAJ&hl=en)
 >
@@ -26,8 +26,8 @@
 ## News
 
 - **[2023/08/24]** Demo release.
-- **[2023/08/04]** Arxiv preprint released.:paperclip:
-- **[2023/07/15]**  Accepted to ICCV 2023! :fire::fire::fire:
+- **[2023/08/04]** Arxiv preprint released. :paperclip:
+- **[2023/07/15]**  Accepted to ICCV 2023!  :fire::fire::fire:
 
 ## Introduction
 
