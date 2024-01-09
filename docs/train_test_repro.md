@@ -87,12 +87,10 @@ Create Submission File
 
 #### Checkpoint Files
 
-Will be released with code soon.
-
-|    Dataset    |                       Checkpoint Link                        | YAML Settings for Validation |               Logs                |
-| :-----------: | :----------------------------------------------------------: | :--------------------------: | :-------------------------------: |
-|   NuScenes    | [Link](https://github.com/zhangzw12319/lcps_weights/blob/main/NuScenes/nusc_79.8.pt) |   pa_po_nuscenes_val.yaml    |  [nusc](logs/nohup_nusc_val.log)  |
-| SemanticKITTI | [Link](https://github.com/zhangzw12319/lcps_weights/blob/main/SemanticKITTI/kitti_61.6pq.pt) |     pa_po_kitti_val.yaml     | [kitti](logs/nohup_kitti_val.log) |
+|    Dataset    |                 Checkpoint Link                  | YAML Settings for Validation |               Logs                |
+| :-----------: | :----------------------------------------------: | :--------------------------: | :-------------------------------: |
+|   NuScenes    | [Hugging Face](https://huggingface.co/im99/lcps) |   pa_po_nuscenes_val.yaml    |  [nusc](logs/nohup_nusc_val.log)  |
+| SemanticKITTI | [Hugging Face](https://huggingface.co/im99/lcps) |     pa_po_kitti_val.yaml     | [kitti](logs/nohup_kitti_val.log) |
 
 
 
