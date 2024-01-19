@@ -89,8 +89,8 @@ Create Submission File
 
 |    Dataset    |                 Checkpoint Link                  | YAML Settings for Validation |               Logs                |
 | :-----------: | :----------------------------------------------: | :--------------------------: | :-------------------------------: |
-|   NuScenes    | [Hugging Face](https://huggingface.co/im99/lcps) |   pa_po_nuscenes_val.yaml    |  [nusc](logs/nohup_nusc_val.log)  |
-| SemanticKITTI | [Hugging Face](https://huggingface.co/im99/lcps) |     pa_po_kitti_val.yaml     | [kitti](logs/nohup_kitti_val.log) |
+|   NuScenes    | [Hugging Face](https://huggingface.co/im99/lcps) |   pa_po_nuscenes_val.yaml    |  [nusc](../logs/nohup_nusc_val.log)  |
+| SemanticKITTI | [Hugging Face](https://huggingface.co/im99/lcps) |     pa_po_kitti_val.yaml     | [kitti](../logs/nohup_kitti_val.log) |
 
 
 
