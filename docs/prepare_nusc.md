@@ -67,7 +67,10 @@ You can download the original dataset either from NuScenes [website](https://www
 
 For NuScenes website, you need to download `Full dataset (v1.0)`(including mini, trainval and test splits), `NuScenes-lidareseg` ，and`NuScenes-panoptic`. For OpenDataLab, it seems that only `Full dataset (v1.0)`is provided and you need to download the other two from NuScenes website.
 
-PKL files for NuScenes for our project can be downloaded [here](https://pan.baidu.com/s/1a94BcZAYb0rWMJZL_uZayw?pwd=posk).
+PKL files for NuScenes for our project can be downloaded as the following,
+
+- Google Drive [here](https://drive.google.com/file/d/1HU8ufGGn6AD38NJZRkQD46tJjjwcZSn3/view?usp=sharing).
+- Baidu Net Disk [here](https://pan.baidu.com/s/1a94BcZAYb0rWMJZL_uZayw?pwd=posk).
 
 (Optional) Support for Instance Augmentation. The compressed files for `inst_database_train` can be downloaded [here](https://pan.baidu.com/s/1h-IyvHWz3oD1P6KACBq9cg?pwd=ccm2).
 
