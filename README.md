@@ -1,3 +1,5 @@
+
+
 # LCPS: First LiDAR-Camera Panoptic Segmentation Framework for 3D Perception
 
 ## Description
@@ -20,7 +22,7 @@
 
 ![](https://github.com/zhangzw12319/SharingDemo/blob/main/video_view_compressed.gif)
 <div align="center">
-    The Visualization video is Captured on NuScenes Dataset, compressed and converted to gif for efficient playting. Left: Semantic Segmentation,  Right: Instance Segmentation. Original MP4 video can be downloaded at <a href="https://www.dropbox.com/scl/fi/lujxp6ejliny9sceg64ao/video_view.mp4?rlkey=t9fypl4uptuyzmhgroni9f3re&dl=0">Dropbox</a> or <a href="https://www.aliyundrive.com/s/JGx2X4hpmEt">Aliyun</a> (Code: q5h7).
+    The Visualization video is Captured on NuScenes Dataset, compressed and converted to gif for efficient playing. Left: Semantic Segmentation,  Right: Instance Segmentation. Original MP4 video can be downloaded at <a href="https://www.dropbox.com/scl/fi/lujxp6ejliny9sceg64ao/video_view.mp4?rlkey=t9fypl4uptuyzmhgroni9f3re&dl=0">Dropbox</a> or <a href="https://www.aliyundrive.com/s/JGx2X4hpmEt">Aliyun</a> (Code: q5h7).
 </div>
 
 ## News
@@ -33,7 +35,7 @@
 
 ![](https://s2.loli.net/2023/08/24/3ljWIEHhkpSF17c.png)
 
-3D panoptic segmentation is a challenging perception task that requires both semantic segmentation and instance segmentation. In this task, we notice that images could provide rich texture, color, and discriminative information, which can complement LiDAR data for evident performance improvement, but their fusion remains a challenging problem. To this end, we propose LCPS, the first LiDAR-Camera Panoptic Segmentation network. In our approach, we conduct LiDAR-Camera fusion in three stages: 1) an Asynchronous Compensation Pixel Alignment (ACPA) module that calibrates the coordinate misalignment caused by asynchronous problems between sensors; 2) a Semantic-Aware Region Alignment (SARA) module that extends the oneto-one point-pixel mapping to one-to-many semantic relations; 3) a Point-to-Voxel feature Propagation (PVP) module that integrates both geometric and semantic fusion information for the entire point cloud. Our fusion strategy improves about 6.9% PQ performance over the LiDAR-only baseline on NuScenes dataset. Extensive quantitative and qualitative experiments further demonstrate the effectiveness of our novel framework.
+3D panoptic segmentation is a challenging perception task that requires both semantic segmentation and instance segmentation. In this task, we notice that images could provide rich texture, color, and discriminative information, which can complement LiDAR data for evident performance improvement, but their fusion remains a challenging problem. To this end, we propose LCPS, the first LiDAR-Camera Panoptic Segmentation network. In our approach, we conduct LiDAR-Camera fusion in three stages: 1) an Asynchronous Compensation Pixel Alignment (ACPA) module that calibrates the coordinate misalignment caused by asynchronous problems between sensors; 2) a Semantic-Aware Region Alignment (SARA) module that extends the one-to-one point-pixel mapping to one-to-many semantic relations; 3) a Point-to-Voxel feature Propagation (PVP) module that integrates both geometric and semantic fusion information for the entire point cloud. Our fusion strategy improves about 6.9% PQ performance over the LiDAR-only baseline on NuScenes dataset. Extensive quantitative and qualitative experiments further demonstrate the effectiveness of our novel framework.
 
 ## Getting Started
 
@@ -61,7 +63,7 @@ LCPS/
 
 ## More Visualizations
 
-Full visualizations and quick explainations can be seen [here](docs/more_vis.md).
+Full visualizations and quick explanations can be seen [here](docs/more_vis.md).
 
 ![](https://s2.loli.net/2023/08/19/TV39IbcEpK1oA2n.png)
 
@@ -81,7 +83,7 @@ If you find this project helpful, please consider **citing** the following paper
     title     = {LiDAR-Camera Panoptic Segmentation via Geometry-Consistent and Semantic-Aware Alignment},
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
     month     = {October},
-    year      = {2023},
+    year     = {2023},
     pages     = {3662-3671}
 }
 ```
